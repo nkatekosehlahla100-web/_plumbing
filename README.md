@@ -100,12 +100,10 @@ box`), root font stacks, and linked the stylesheet across all 5 HTML pages.
  
 Commit 3 (Layout & Typography): Added Flexbox layout rules for `.header-container`, 
 `.features-grid`, and `.contact-grid`. Styled headings (`h1`–`h3`) and paragraph line-heights. 
- 
-Commit 4 (Decoration & Components): Implemented table styling (`.data-table`), custom form 
-inputs, call-to-action buttons (`.btn-primary`), and link state pseudo-classes (`:hover`, `:focus`). 
- 
+
 Commit 5 (Responsive Design): Added `@media screen` queries at `960px` and `680px` 
 breakpoints to stack mobile navigation menus and collapse multi-column grids. 
  
 Commit 6 (Documentation): Updated `README.md` with Part 2 implementation summary, 
 references, and changelog records for Part 2 submission.
+\## Changelog — Part 2 (Formative 2) ### Part 1 Feedback Resolution - \*\*Root Directory Cleanup:\*\* Removed nested sub-folders (\`about\`, \`faq\`, \`resources\`, \`services\`) and placed all 5 core HTML files (\`index.html\`, \`about.html\`, \`services.html\`, \`enquiry.html\`, \`contact.html\`) directly into the root directory (\`flowfix\_plumbing\`). - \*\*File Naming Compliance:\*\* Standardized all HTML and folder names to strictly lowercase with no spaces or special characters. - \*\*Folder Organization:\*\* Established the required 3 sub-folder layout: \`css/\`, \`images/\`, and \`js/\`. ### CSS Styling &amp; Desktop Layout (Learning Unit 4) - \*\*External Stylesheet Creation:\*\* Created a centralized \`css/style.css\` file and linked it across all 5 HTML pages within the \`\` tag using \`<link rel="stylesheet" />\`. - \*\*CSS Reset &amp; Base Rules:\*\* Applied standard \`box-sizing: border-box\`, clean font stacks (\`Segoe UI\`, \`Tahoma\`), default line heights, and primary color variables. - \*\*Flexbox Layouts:\*\* Implemented Flexbox containers for header navigation, hero sections, service feature cards, and location depots. - \*\*Component Styling:\*\* Styled interactive buttons, form fieldsets, input focus states, and data tables with alternating row shading (\`nth-child(even)\`). - \*\*Link Pseudo-Classes:\*\* Configured \`:link\`, \`:visited\`, \`:hover\`, \`:focus\`, and \`:active\` states for all navigation links and call-to-action buttons. ### Responsive Web Design (Learning Unit 5) - \*\*Fluid Media Scaling:\*\* Applied \`max-width: 100%; height: auto;\` to ensure images adjust dynamically without overflowing viewports. - \*\*Mobile Breakpoints:\*\* Added \`@media screen and (max-width: 768px)\` media queries to stack multi-column grids vertically, collapse navigation menus for mobile viewports, and adjust mobile typography scaling.
